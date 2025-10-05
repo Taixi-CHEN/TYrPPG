@@ -1,4 +1,4 @@
-# TYrPPG: TYrPPG: Uncomplicated and Enhanced Learning Capability rPPG for Remote Heart Rate Estimation
+# TYrPPG: Uncomplicated and Enhanced Learning Capability rPPG for Remote Heart Rate Estimation
 
 
 ## SetUp
@@ -16,6 +16,7 @@
 
 
 You need to change the data path and run the code using the **python main.py --config_file ./configs/XX.yaml**,  XX should be the yaml file inside the configs.
+
 
 
 
