@@ -2,6 +2,8 @@
 
 TYrPPG: Uncomplicated and Enhanced Learning Capability rPPG for Remote Heart Rate Estimation (IEEE WI-IAT 25' AI4SG Workshop Oral)
 
+You can find our paper [here](https://arxiv.org/abs/2511.05833).
+
 ## SetUp
 
 
@@ -36,6 +38,7 @@ STEP1: Download the needed datasets (MMPD, PURE, or others)
 STEP2: Change the ```./configs/PURE_TYrPPG.yaml```, **ensure the TOOLBOX_MODE is "train_and_test"**, change the train data path and test data path to do anything you want
 
 STEP3: Run model using ```python main.py --config_file ./configs/PURE_TYrPPG.yaml```
+
 
 
 
