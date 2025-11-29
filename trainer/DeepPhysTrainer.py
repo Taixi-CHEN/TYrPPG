@@ -12,9 +12,9 @@ import random
 
 from metrics import calculate_metrics
 from post_process import calculate_hr
-from NegPearsonLoss import Neg_Pearson
-from DeepPhys import DeepPhys
-from BaseTrainer import BaseTrainer
+from trainer.NegPearsonLoss import Neg_Pearson
+from models.DeepPhys import DeepPhys
+from trainer.BaseTrainer import BaseTrainer
 
 
 class DeepPhysTrainer(BaseTrainer):
