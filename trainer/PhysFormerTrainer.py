@@ -8,9 +8,9 @@ from tqdm import tqdm
 import random
 from metrics import calculate_metrics
 from post_process import calculate_hr
-from TorchLossComputer import PhysFormer_Loss 
-from PhysFormer import ViT_ST_ST_Compact3_TDC_gra_sharp
-from BaseTrainer import BaseTrainer
+from loss.TorchLossComputer import PhysFormer_Loss 
+from models.PhysFormer import ViT_ST_ST_Compact3_TDC_gra_sharp
+from trainer.BaseTrainer import BaseTrainer
 
 class PhysFormerTrainer(BaseTrainer):
 
