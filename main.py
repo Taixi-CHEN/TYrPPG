@@ -7,16 +7,16 @@ import time
 import numpy as np
 import torch
 from config import get_config
-import UBFCPHYSLoader
-import PURELoader
-import MMPDLoader
-import TYrPPGTrainer
-import BaseLoader
-import BaseTrainer
-import PhysnetTrainer
-import  DeepPhysTrainer
-import PhysFormerTrainer
-import TscanTrainer
+import dataloader.UBFCPHYSLoader as UBFCPHYSLoader
+import dataloader.PURELoader as PURELoader
+import dataloader.MMPDLoader as MMPDLoader
+import trainer.TYrPPGTrainer as TYrPPGTrainer
+import dataloader.BaseLoader as BaseLoader
+import trainer.BaseTrainer as BaseTrainer
+import trainer.PhysnetTrainer as PhysnetTrainer
+import  trainer.DeepPhysTrainer as DeepPhysTrainer
+import trainer.PhysFormerTrainer as PhysFormerTrainer
+import trainer.TscanTrainer as TscanTrainer
 # from unsupervised_methods.unsupervised_predictor import unsupervised_predict
 from torch.utils.data import DataLoader
 import os 
