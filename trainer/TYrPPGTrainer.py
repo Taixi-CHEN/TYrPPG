@@ -7,10 +7,10 @@ import random
 from tqdm import tqdm
 from post_process import calculate_hr
 from metrics import calculate_metrics
-from TYrPPG import  TYrPPG
-from BaseTrainer import BaseTrainer
-from TorchLossComputer import Hybrid_Loss
-from BaseLoader import BaseLoader
+from models.TYrPPG import  TYrPPG
+from trainer.BaseTrainer import BaseTrainer
+from loss.TorchLossComputer import Hybrid_Loss
+from dataloader.BaseLoader import BaseLoader
 
 class TYrPPGTrainer(BaseTrainer):
 
