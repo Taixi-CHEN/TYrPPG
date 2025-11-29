@@ -6,9 +6,9 @@ import numpy as np
 import torch
 import torch.optim as optim
 from metrics import calculate_metrics
-from PhysNetNegPearsonLoss import Neg_Pearson
-from PhysNet import PhysNet_padding_Encoder_Decoder_MAX
-from BaseTrainer import BaseTrainer
+from loss.PhysNetNegPearsonLoss import Neg_Pearson
+from models.PhysNet import PhysNet_padding_Encoder_Decoder_MAX
+from trainer.BaseTrainer import BaseTrainer
 from torch.autograd import Variable
 from tqdm import tqdm
 
