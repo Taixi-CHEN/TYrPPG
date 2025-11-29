@@ -8,9 +8,9 @@ import numpy as np
 import torch
 import torch.optim as optim
 from metrics import calculate_metrics
-from NegPearsonLoss import Neg_Pearson
-from TS_CAN import TSCAN
-from BaseTrainer import BaseTrainer
+from loss.NegPearsonLoss import Neg_Pearson
+from models.TS_CAN import TSCAN
+from trainer.BaseTrainer import BaseTrainer
 from tqdm import tqdm
 
 
