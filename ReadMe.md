@@ -6,7 +6,7 @@ You can find our paper [here](https://arxiv.org/abs/2511.05833).
 
 <img src="https://github.com/Taixi-CHEN/TYrPPG/blob/main/Loss.png" width="700">
 
-### This is the first Mambaout-based (Gated CNN) rPPG algorithm, with the proposed video-MMD loss for optimization
+#### This is the first Mambaout-based (Gated CNN) rPPG algorithm, with the proposed video-MMD loss for optimization
 
 ---
 
@@ -44,6 +44,7 @@ STEP1: Download the needed datasets (MMPD, PURE, or others)
 STEP2: Change the ```./configs/PURE_TYrPPG.yaml```, **ensure the TOOLBOX_MODE is "train_and_test"**, change the train data path and test data path to do anything you want
 
 STEP3: Run model using ```python main.py --config_file ./configs/PURE_TYrPPG.yaml```
+
 
 
 
